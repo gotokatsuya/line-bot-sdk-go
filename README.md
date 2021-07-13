@@ -2,8 +2,8 @@
 
 [![Build Status](https://travis-ci.org/line/line-bot-sdk-go.svg?branch=master)](https://travis-ci.org/line/line-bot-sdk-go)
 [![codecov](https://codecov.io/gh/line/line-bot-sdk-go/branch/master/graph/badge.svg)](https://codecov.io/gh/line/line-bot-sdk-go)
-[![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](http://godoc.org/github.com/line/line-bot-sdk-go/linebot)
-[![Go Report Card](https://goreportcard.com/badge/github.com/line/line-bot-sdk-go)](https://goreportcard.com/report/github.com/line/line-bot-sdk-go)
+[![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](http://godoc.org/github.com/gotokatsuya/line-bot-sdk-go/linebot)
+[![Go Report Card](https://goreportcard.com/badge/github.com/gotokatsuya/line-bot-sdk-go)](https://goreportcard.com/report/github.com/gotokatsuya/line-bot-sdk-go)
 
 
 ## Introduction
@@ -23,14 +23,14 @@ This library requires Go 1.11 or later.
 ## Installation ##
 
 ```sh
-$ go get -u github.com/line/line-bot-sdk-go/v7/linebot
+$ go get -u github.com/gotokatsuya/line-bot-sdk-go/v7/linebot
 ```
 
 ## Configuration ##
 
 ```go
 import (
-	"github.com/line/line-bot-sdk-go/v7/linebot"
+	"github.com/gotokatsuya/line-bot-sdk-go/v7/linebot"
 )
 
 func main() {
